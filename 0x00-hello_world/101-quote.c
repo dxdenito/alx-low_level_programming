@@ -9,11 +9,10 @@
 
 int main(void)
 {
-	int s = strlen("and that piece of art is usefull\"
-		        + "- Dora Korpar,2015-10-19\n");
+	char quote [] = "and that piece of art is usefull\" - Dora Korpar,2015-10-19\n"
+	int s = strlen(quote);
 
-	write(2, "and that piece of art is usefull\"
-	       + "- Dora Korpar, 2015-10-19\n", s);
+	write(2, quote, s);
 
 	return (1);
 }
