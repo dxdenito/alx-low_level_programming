@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-/* begining of main program */
+/**
+*main - main program
+*/
 
 int main(void)
 {
