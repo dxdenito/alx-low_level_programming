@@ -31,7 +31,7 @@ int main(void)
 
 	if ((m < 6) && (m != 0))
 	{
-		printf("%s %d is %d and is less than 6 and not 0", f, n, m);
+		printf("%s %d is %d and is less than 6 and not 0\n", f, n, m);
 	}
 	return (0);
 }
