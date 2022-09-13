@@ -1,24 +1,28 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - print all to 98
- * @n: - parameter to start
- * Return: 0
+ * print_to_98 - Prints numbers from n to 98.
+ *
+ * @n: Theinput number.
+ *
+ * Return: no return.
  */
 
 void print_to_98(int n)
 {
-	if (n >= 98)
+	if (n > 98)
 	{
-		while (n > 98)
-			printf("%d, ", n--);
-
-			printf("%d\n", n);
+		for (; n > 98; n--)
+		{
+			printf("%d, ", n);
+		}
 	}
-	else
+	else if (n < 98)
 	{
-		printf("%d, ", n++);
-
-		printf("%d\n", n);
+		for (; n < 98; n++)
+		{
+			printf("%d, ", n);
+		}
 	}
+	printf("%d\n", n);
 }
