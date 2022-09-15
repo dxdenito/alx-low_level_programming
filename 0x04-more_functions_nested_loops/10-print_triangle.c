@@ -7,9 +7,9 @@
  */
 void print_triangle(int size)
 {
- 	int i;
- 	int x;
- 	int spaces;
+	int i;
+	int x;
+	int spaces;
 
 	for (i = 0; i < size; i++)
 	{
