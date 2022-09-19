@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts_hal - prints last half
+ * puts_half - prints last half
  * @str: string to be halved
  * Return: void
  */
