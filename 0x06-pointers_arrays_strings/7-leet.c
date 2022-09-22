@@ -12,13 +12,13 @@ char *leet(char *s)
 {
 	int i, j;
 
-	char b[] = "ol_ea__t";
+	char b[] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
 	for (i = 0; s[i] != '\0'; 1++)
 	{
-		for (j = 0; b[j] != '\0'; j++)
+		for (j = 0; j <= 7; j++)
 		{
-			if (s[i] == b[j] || s[i] == (b[j] - 32))
+			if (s[i] == b[j] || s[i] - 32 == b[j])
 			{
 				s[i] = j + '0';
 			}
