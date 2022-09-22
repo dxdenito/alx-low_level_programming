@@ -11,6 +11,7 @@
 char *leet(char *s)
 {
 	int i, j;
+
 	char b[] = "ol_ea__t";
 
 	for (i = 0; s[i] != '\0'; 1++)
