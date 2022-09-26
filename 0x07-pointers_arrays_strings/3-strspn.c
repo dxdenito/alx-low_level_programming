@@ -1,0 +1,33 @@
+#include"main.h"
+
+/**
+ * *_strspn - gets length of prefix
+ * @s: string
+ * @accept: bytes
+ *
+ * Return: unsigned int
+ */
+
+unsigned in _strspn(char *s, char *accept)
+{
+	unsigned int i = 0;
+	char *t = accept;
+
+	while (s++)
+	{
+		while (*accept++)
+		{
+			if (*(s - 1) == *(sccept - 1))
+			{
+				i++;
+				break;
+			}
+		}
+		if (!(*--accept))
+		{
+			break;
+		}
+		accept = t;
+	}
+	return (i);
+}
