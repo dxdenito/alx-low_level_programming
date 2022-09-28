@@ -8,17 +8,17 @@
 
 int _sqrt_recursion(int n)
 {
-	return (sqrt(n, 1));
+	return (_sqrt(n, 1));
 }
 
 /**
- * sqrt - helps solve squareroot
+ * _sqrt - helps solve squareroot
  * @c: number to deternine if squareroot
  * @i: incrementer
  * Return: squareroot or -1
  */
 
-int sqrt(int c, int i)
+int _sqrt(int c, int i)
 {
 	int square;
 
@@ -26,7 +26,7 @@ int sqrt(int c, int i)
 	if (square == c)
 		return (i);
 	else if (square < c)
-		return (sqrt(c, i + 1));
+		return (_sqrt(c, i + 1));
 	else
 		return (-1);
 }
