@@ -19,6 +19,6 @@ int _sqrt(int c, int i);
 
 int is_prime_number(int n);
 
-int is_div(int num, int div)
+int is_div(int num, int div);
 
 #endif /* MAIN_H */
