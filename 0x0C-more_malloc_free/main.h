@@ -1,6 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#define min(x, y) (((x) < (y)) ? (x) : (y))
+
+int _putchar(char c);
+
+#include <stdio.h>
+
 #include <stdlib.h>
 
 void *malloc_checked(unsigned int b);
