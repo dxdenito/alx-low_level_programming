@@ -3,7 +3,7 @@
 /**
  * print_name - prints a name
  * @name: persons name
- * @f pointer to function
+ * @f: pointer to function
  * Return: void
  */
 
