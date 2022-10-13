@@ -8,6 +8,6 @@ void array_iterator(int *array, size_t size, void (*action)(int));
 int int_index(int *array, int size, int (*cmp)(int));
 
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 
 #endif /* _FUNCTION_POINTERS_H */
